@@ -37,9 +37,9 @@
 
     <main>
         <!--Sezione start-->
-        <section>
+        <section class="bg-success">
             <div class="container text-center">
-                <div class="row flex-column justify-content-center align-items-center">
+                <div class="row g-4 flex-column justify-content-center align-items-center">
                     <div class="col-5">
                         <img class="img-fluid" src="img/avatar.svg" alt="avatar">
                     </div>
@@ -54,7 +54,7 @@
         <section>
             <div class="container text-center">
                 <h2>PORTFOLIO</h2>
-                <div class="row justify-content-center align-items-center">
+                <div class="row g-4 justify-content-center align-items-center">
                     <div class="card" style="width: 27rem;">
                         <img src="img/cabin.png" class="card-img-top" alt="cabin">
                     </div>
@@ -80,17 +80,19 @@
         <section>
             <div class="container text-center">
                 <h2>ABOUT</h2>
-                <div class="row">
-                    <div class="col">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6">
                         <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
                             complete source files including HTML, CSS, and JavaScript as well as optional LESS
                             stylesheets for easy customization.</p>
+                    </div>
+                    <div class="col-6">
                         <p>Whether you're a student looking to showcase your work, a professional looking to attract
                             clients, or a graphic artist loooking to share your projects, this template is the perfect
                             starting point!</p>
-                        <button type="button" class="btn btn-outline-secondary">Download</button>
                     </div>
                 </div>
+                <button type="button" class="btn btn-outline-secondary">Download</button>
             </div>
         </section>
         <!--Sezione contact -->
@@ -98,7 +100,7 @@
             <div class="container text-center">
                 <h2>CONTACT ME</h2>
                 <div class="row flex-column justify-content-center align-items-center">
-                    <div class="col-6">
+                    <div class="col-6 g-4">
                         <table class="table">
                             <thead>
                                 <tr>
@@ -124,8 +126,21 @@
         </section>
     </main>
 
-    <footer></footer>
-
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col g-4">
+                    <h4>LOCATION</h4>
+                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>AROUND THE WEB</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
